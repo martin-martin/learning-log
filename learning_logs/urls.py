@@ -8,5 +8,7 @@ app_name = 'learning_logs'  # https://stackoverflow.com/a/50011971/5717580
 
 urlpatterns = [
     # homepage
-    path('', views.index, name='index'),
+    path('', views.index, name='index'),  # remember adding the name kw-arg
+    # topics
+    path('topics/', views.topics, name='topics'),
 ]
