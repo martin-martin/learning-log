@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Topic(models.Model):  # singular turns to Plural in admin
     """A topic the user is learning about."""
     text = models.CharField(max_length=200)  # talk about SQL
